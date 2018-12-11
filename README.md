@@ -1,2 +1,2 @@
 # ReactNative
-Learn React Native Update Delete API from JSONPlaceholder with axio
+Learn React Native Get Post Delete API from JSONPlaceholder with axio
