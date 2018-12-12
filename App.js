@@ -47,12 +47,13 @@ export default class App extends Component {
 
   delete(i,id){
     index = this.state.data.indexOf(i);
-    axios.delete('https://jsonplaceholder.typicode.com/todos/' + id.toString())
-    .then(
-      alert('Deleted')
-    );
+    // axios.delete('https://jsonplaceholder.typicode.com/todos/' + id.toString())
+    // .then(
+    //   alert('Deleted')
+    // );
     data = this.state.data.slice();
     data.splice(index,1);
+    alert('Deleted');
     this.setState({data:data});
   }
 
